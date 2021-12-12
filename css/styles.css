@@ -12,91 +12,106 @@ body{
 
 #navbar{
     background-color:#483939;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     z-index: 2;
     position: fixed;
-    height:60px;
+    
+    
+    width:100%;
 }
-.navigation{
-    float:left;
-    width:40%;
+.navigation ul{
+    display: flex;
+    
+   
 }
-.navigation li{
-    list-style: none;
-    float:left;
-    margin-left:5%;
-    margin-top:4%;
+.navigation {
+    width: 60%;
 }
 
+.navigation li{
+    list-style: none;
+    margin-left: 3%;
+}
 .navigation li a{
     text-decoration: none;
     color:white;
-    font-size:17px;
-    font-family:cursive;
 }
 
 .slogo{
+    width:40%;
+    
+}
+.slogo a{
+    text-decoration: none;
+}
+.slogo img{
+    width:45px;
     float:right;
-    height:60px;
-    width:30%;
+    margin-left:2%;
 }
 
-.slogo img{
-    float:right;
-    width:12%;
-    
-    margin-right:5%;
-    margin-top: 2%;
-}
 /* ---------------------about section-------------------------------------------- */
 #about{
-    height:460px;
-    width:100%;
+    
     background-color: burlywood;
+    
+    width:100%;
 }
+
+.abt-control{
+    display:flex;
+}
+
 .abt-img{
-    height:350px;
-    width:30%;
-    position: absolute;
-    margin-top:7%;
-    margin-left: 2%;
-    float:left;
-    background-image: url("../images/prf.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100% 350px;
     
-    
+    height:290px;
+    width:300px;
+   
+   
+    margin-top:72px;
+    margin-left:20px;
+}
+
+.abt-img > img{
+    height:inherit;
+    width:100%;
+
 }
 
 .abt-description{
-    float:left;
-    width:66%;
-    display:flex;
-    flex-direction: column;
     
-    font-family: cursive;
-    margin-left:33%;
-    margin-top:7%;
-    height:349px;
+    
+    width:80%;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 34px;
+   
+    margin-top:72px;
 }
 .desHeading{
-    margin-bottom: 2%;
+    font-family: cursive;
+
 }
 .desContent{
-    line-height:2;
+    line-height: 2;
+    font-family: cursive;
 }
 /* ---------------------skillsSection -----------------------------*/
 
 #skills{
-    height:300px;
-    
+    padding-bottom: 30px;
     background-color: #336662;
 }
 .skillImg{
     text-align: center;
+    margin-top:30px;
 }
 
 .skillImg > img{
-    margin-top:4%;
+    margin-left: 1%;
 }
 
 /* -------------------------------hobbiesSection-------------------------------- */
@@ -104,17 +119,19 @@ body{
 #hobbies{
     
     background-color: #766666;
-    height: 300px;
+    padding-bottom: 30px;
 
 }
 .hobb-img{
     
+    margin-top: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .hobb-img >img{
-    width:12%;
+    width:150px;
+    margin-left: 2%;
 }
 
 /* ------------------------------------contactSection------------------------------------ */
@@ -211,4 +228,91 @@ footer{
     font-size:40px;
     font-family:cursive;
     color:white;
+}
+
+/*--------------------------- media Query----------------------- */
+
+@media only screen and (max-width:800px){
+    .contact-control{
+        flex-direction:column;
+
+    }
+    .contact-fame{
+        width:100%;
+    }
+    .contact-form{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .abt-control{
+        flex-direction: column;
+
+    }
+    .abt-description{
+        margin-left: 20px;
+        margin-top:50px;
+    }
+
+    .hobb-img{
+       
+        
+        flex-wrap:wrap;
+    }
+
+    .hobb-img > img{
+        width:100px;
+    }
+
+    .skillImg > img{
+        width:72px;
+    }
+
+    
+}
+
+@media only screen and (max-width:538px){
+    #navbar{
+        flex-direction: column;
+    }
+
+    .navigation{
+        width:100%;
+        margin: 10px 0px;
+    }
+
+    .navigation ul{
+        margin-left:20px;
+    }
+
+    .slogo{
+        margin-right: 30px;
+        margin-top: 8px;
+    }
+    
+    .slogo img{
+        width:35px;
+    }
+
+    .section-heading{
+        font-size: 25px;
+    }
+    .footer-content{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .abt-img{
+        width:270px;
+        margin-left: 5px;
+    }
+
+    .navigation ul {
+        font-size:13px;
+    }
+    .footer-content{
+        font-size: 15px;
+    }
 }
