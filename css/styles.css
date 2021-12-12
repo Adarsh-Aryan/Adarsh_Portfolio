@@ -1,6 +1,7 @@
 *{
     padding:0px;
     margin:0px;
+    font-family: 'Ubuntu', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -91,13 +92,10 @@ body{
    
     margin-top:72px;
 }
-.desHeading{
-    font-family: cursive;
 
-}
 .desContent{
     line-height: 2;
-    font-family: cursive;
+    
 }
 /* ---------------------skillsSection -----------------------------*/
 
@@ -178,7 +176,7 @@ input{
     height:34px;
     font-size:20px;
     margin-top:2%;
-    font-family: cursive;
+    font-family: 'Ubuntu', sans-serif;
     color:black;
     padding-left: 2px;
 }
@@ -191,8 +189,9 @@ input[type="text"]{
     width:100%;
     font-size: 20px;
     margin-top:2%;
-    color:white;
+    color:black;
     padding-left: 2px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .btn{
@@ -204,7 +203,7 @@ input[type="text"]{
     cursor:pointer;
     background-color: rgb(31, 115, 224);
     color:white;
-    font-family: cursive;
+    font-family: 'Ubuntu', sans-serif;
     
 
 }
@@ -217,7 +216,7 @@ footer{
 }
 .footer-content{
     text-align:center;
-    font-family: cursive;
+   
     font-size:25px;
    
 }
@@ -226,7 +225,7 @@ footer{
     padding-top:1%;
     text-align: center;
     font-size:40px;
-    font-family:cursive;
+    font-family: 'Ubuntu', sans-serif;
     color:white;
 }
 
@@ -252,7 +251,7 @@ footer{
     }
     .abt-description{
         margin-left: 20px;
-        margin-top:50px;
+        margin-top:30px;
     }
 
     .hobb-img{
@@ -288,13 +287,14 @@ footer{
 
     .slogo{
         margin-right: 30px;
-        margin-top: 8px;
+       
     }
-    
     .slogo img{
         width:35px;
     }
-
+    .abt-img{
+        margin-top:80px;
+    }
     .section-heading{
         font-size: 25px;
     }
