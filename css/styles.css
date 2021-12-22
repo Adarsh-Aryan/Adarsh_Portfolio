@@ -44,6 +44,8 @@ body{
 
 .slogo{
     width:40%;
+    display: flex;
+    justify-content: flex-end;
     
 }
 .slogo a{
@@ -51,8 +53,7 @@ body{
 }
 .slogo img{
     width:45px;
-    float:right;
-    margin-left:2%;
+    
 }
 
 /* ---------------------about section-------------------------------------------- */
