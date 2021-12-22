@@ -12,6 +12,7 @@ body{
 /*------------ Navbar --------------------------*/
 
 #navbar{
+    opacity: 0.9;
     background-color:#483939;
     display: flex;
     justify-content: space-between;
@@ -56,11 +57,11 @@ body{
 /* ---------------------about section-------------------------------------------- */
 #about{
     
-    background-color: burlywood;
-    background: url("https://aakashhanda.me/images/a.jpg") no-repeat center center/cover;
+   
+    background: url("../images/csBG2.webp") no-repeat center center/cover;
+    width:100%;
    
 
-    width:100%;
 }
 
 .abt-control{
@@ -203,6 +204,7 @@ input[type="text"]{
     padding: 6px;
     border:0px;
     cursor:pointer;
+    font-size: 20px;
     background-color: rgb(31, 115, 224);
     color:white;
     font-family: 'Ubuntu', sans-serif;
@@ -296,6 +298,9 @@ footer{
     }
     .abt-img{
         margin-top:80px;
+    }
+    .abt-img > img{
+        width: 85%;
     }
     .section-heading{
         font-size: 25px;
