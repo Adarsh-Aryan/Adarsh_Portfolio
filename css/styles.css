@@ -137,7 +137,10 @@ body{
 .contact-fame{
     width:40%;
 }
-
+.contact-fame p{
+    margin: 6px;
+    color:white;
+}
 .contact-form{
     margin-bottom: 1%;
     width: 55%;
