@@ -265,7 +265,8 @@ footer{
     }
 
     .slogo{
-        margin-right: 30px;
+        justify-content: flex-start;
+
        
     }
     .slogo img{
