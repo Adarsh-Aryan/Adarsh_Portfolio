@@ -15,6 +15,8 @@ body{
 .navbar{
     position: fixed;
     width: 100%;
+    z-index: 1;
+    
 }
 
 .slogo{
@@ -47,17 +49,23 @@ body{
 
 .abt-img{
     
-    height:290px;
-    width:300px;
-   
-   
-    margin-top:80px;
+    height:250px;
+    width:250px;
+    
+    position: relative;
+    bottom: 2px;
+    
+    margin-top:90px;
     margin-left:20px;
 }
 
 .abt-img > img{
     height:inherit;
     width:100%;
+    border: 4px solid grey;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    
 
 }
 
@@ -68,8 +76,8 @@ body{
     display: flex;
     flex-direction: column;
     color: cornsilk;
-    margin-left: 34px;
-   
+    margin:0px 23px;
+    
     margin-top:80px;
 }
 
@@ -90,6 +98,33 @@ body{
 
 .skillImg > img{
     margin-left: 1%;
+}
+
+/*----------------Projects Section-----------------------------*/
+#projects{
+    background-color: rgb(106, 88, 124);
+    color: white;
+    padding: 4px 0px;
+}
+.projects{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    
+    
+    
+}
+.project-img{
+    margin-right: 40px;
+}
+.project-img > img {
+    height: 200px;
+    border-radius: 8px;
+}
+
+#project2 img{
+    width: 280px;
 }
 
 /* -------------------------------hobbiesSection-------------------------------- */
@@ -192,7 +227,7 @@ input[type="text"]{
 /*----------------------------------------- footer class--------------------------------------- */
 footer{
     background-color: burlywood;
-    
+    padding: 20px 0px;
     display: flex;
     
     justify-content:center;
