@@ -104,7 +104,7 @@ body{
 #projects{
     background-color: rgb(106, 88, 124);
     color: white;
-    padding: 4px 0px;
+    padding: 20px 0px;
 }
 .projects{
     display: flex;
