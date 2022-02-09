@@ -248,6 +248,12 @@ footer{
 
 /*--------------------------- media Query----------------------- */
 
+@media only screen and (max-width:998px){
+    .slogo{
+        justify-content: flex-start;
+    }
+}
+
 @media only screen and (max-width:800px){
     .contact-control{
         flex-direction:column;
@@ -258,6 +264,9 @@ footer{
     }
     .contact-form{
         width:100%;
+    }
+    .projects{
+        flex-direction: column;
     }
 }
 
@@ -302,11 +311,6 @@ footer{
         margin-left:20px;
     }
 
-    .slogo{
-        justify-content: flex-start;
-
-       
-    }
     .slogo img{
         width:35px;
     }
@@ -333,5 +337,12 @@ footer{
     }
     .footer-content{
         font-size: 15px;
+    }
+    .project-img > img{
+        height: 160px;
+    }
+
+    #project2 img{
+        width:220px
     }
 }
