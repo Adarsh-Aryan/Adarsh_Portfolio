@@ -10,7 +10,7 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif !important;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     
 }
 
@@ -62,7 +62,8 @@ body{
 
 .navigation.active{
     
-    transform:translateX(0)
+    /* transform:translateX(0) */
+    display: block
 }
 
 /* Media Query for Navaigation */
@@ -76,14 +77,15 @@ body{
 
 
     .navigation{
-        transform: translateX(100%);
+        /* transform: translateX(100%); */
+        display: none;
         position: absolute;
         width: 35vw;
         top:40px;
         right: 0px;
         padding: 1rem 0rem;
         background-color: black;
-        transition: transform 1s ;
+        /* transition: transform 1s ; */
     }
 
     .navigation ul{
