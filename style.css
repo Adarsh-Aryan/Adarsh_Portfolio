@@ -10,7 +10,7 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif !important;
-    
+    overflow-x: hidden;
     
 }
 
@@ -74,9 +74,6 @@ body{
         height: 40px;
     }
 
-    body{
-        overflow-x: hidden;
-    }
 
     .navigation{
         transform: translateX(100%);
