@@ -10,6 +10,8 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif !important;
+    background: linear-gradient(to bottom,hsl(280,5%,13%),hsl(276,5%,20%) );
+    color: white;
     /* overflow-x: hidden; */
     
 }
@@ -24,6 +26,8 @@ body{
     align-items: center;
     padding: 10px 6px;
     width: 100%;
+    position: fixed;
+    top: 0px;
     
 }
 
@@ -114,7 +118,7 @@ body{
     
     background-color: aliceblue;
     width: 80vw;
-    margin:3rem auto;
+    margin:5.5rem auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -354,6 +358,7 @@ Footer Section */
     padding: 1rem;
     display: flex;
     justify-content: center;
+    color: black;
 
 }
 
